@@ -1,4 +1,4 @@
-runtime: php7.3
+runtime: php
 env: flex
 
 runtime_config:
@@ -13,10 +13,7 @@ env_variables:
   MYSQL_DB: cloud
   MUSQL_USER: sojas
   MYSQL_PASS: 123456
-# This sample incurs costs to run on the App Engine flexible environment.
-# The settings below are to reduce costs during testing and are not appropriate
-# for production use. For more information, see:
-# https://cloud.google.com/appengine/docs/flexible/php/configuring-your-app-with-app-yaml
+
 manual_scaling:
   instances: 1
 resources:
